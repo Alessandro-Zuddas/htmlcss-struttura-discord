@@ -13,18 +13,27 @@
 
 .debug .header-top{
     background-color: #daa520;
-    margin-bottom: 15px;
 }
    
-.debug .header-bottom{
+.debug .preview{
     background-color: #00008b;
-    border: 3px dashed black;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
    
-.debug .main-image{
-    background-color: #ee82ee;
+.debug .preview-row{
+    height: 300px;
+}
+
+
+.debug .row-main{
+    height: 400px;
+}
+
+.debug .col-big-main{
+    background-color: #1e90ff;
+}
+
+.debug .col-small-main{
+    background-color: #ffc0cb;
 }
 
 /* COMMON */
@@ -43,17 +52,51 @@ header{
 .header-top{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     padding: 5px 0;
+    border: 1px dashed black;
+    margin-bottom: 15px;
+}
+
+.preview{
+    border: 3px dashed black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logo{
+    padding-left: 5px;
+}
+
+.login{
+    padding-right: 5px;
+}
+
+.preview-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview-column{
+    width: 60%;
+    background-color: #ee82ee;
+}
+
+.row-main{
+    display: flex;
+    margin: 25px 0;
+}
+
+.col-big-main{
+    width: 60%;
     border: 1px dashed black;
 }
 
-.main-image{
-    width: 900px;
-    height: 350px;
-    margin: auto;
-    border: 2px dashed black;
+.col-small-main{
+    width: 40%;
+    border: 1px dashed black;
 }
+
 
 /* MAIN */
 
