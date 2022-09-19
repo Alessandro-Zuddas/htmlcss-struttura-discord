@@ -14,16 +14,21 @@
 
 .debug .header-top{
     background-color: #daa520;
+    border: 1px dashed black;
 }
    
 .debug .preview{
     background-color: #00008b;
+    border: 3px dashed black;
 }
    
 .debug .preview-row{
     height: 300px;
 }
 
+.debug .preview-column{
+    background-color: #ee82ee;
+}
 
 .debug .row-main{
     height: 400px;
@@ -31,18 +36,36 @@
 
 .debug .col-big-main{
     background-color: #1e90ff;
+    border: 1px dashed black;
 }
 
 .debug .col-small-main{
     background-color: #ffc0cb;
+    border: 1px dashed black;
 }
 
 .debug .row-end-main{
     height: 600px;
+    background-color: #228b22;
+    border: 1px dashed black;
 }
 
 .debug .row-footer-top{
     height: 500px;
+}
+
+.debug .col-big-footer{
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+
+.debug .col-small-footer{
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
+
+.debug hr{
+    color: white;
 }
 
 .debug .row-footer-bottom{
@@ -50,7 +73,6 @@
     width: 100%;
     background-color: #7fffd4;
 }
-
 
 /* COMMON */
 
@@ -70,7 +92,6 @@ header{
     justify-content: space-between;
     align-items: center; 
     padding: 5px 0;
-    border: 1px dashed black;
     margin-bottom: 15px;
 }
 
@@ -85,7 +106,6 @@ header{
 /* PREVIEW */
 
 .preview{
-    border: 3px dashed black;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -97,7 +117,6 @@ header{
 
 .preview-column{
     width: 60%;
-    background-color: #ee82ee;
 }
 
 /* MAIN */
@@ -110,12 +129,10 @@ header{
 
 .col-big-main{
     width: 60%;
-    border: 1px dashed black;
 }
 
 .col-small-main{
     width: 40%;
-    border: 1px dashed black;
 }
 
 .row-end-main{
@@ -126,8 +143,6 @@ header{
 
 .col-end-main{
     width: 100%;
-    background-color: #228b22;
-    border: 1px dashed black;
 }
 
 section:nth-child(2n){
@@ -148,18 +163,13 @@ footer{
 
 .col-big-footer{
     width: 26%;
-    background-color: #f08080;
-    border: 1px dashed black;
 }
 
 .col-small-footer{
     width: 18%;
-    background-color: #20b2aa;
-    border: 1px dashed white;
 }
 
 hr{
-    color: white;
     margin-bottom: 30px;
 }
 
