@@ -6,6 +6,7 @@
 }
 
 /* DEBUG */
+
 .debug header{
     background-color: #add8e6;
     height: 60px;
@@ -36,6 +37,10 @@
     background-color: #ffc0cb;
 }
 
+.debug .row-end-main{
+    height: 500px;
+}
+
 /* COMMON */
 
 .container{
@@ -58,18 +63,20 @@ header{
     margin-bottom: 15px;
 }
 
-.preview{
-    border: 3px dashed black;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
 .logo{
     padding-left: 5px;
 }
 
 .login{
     padding-right: 5px;
+}
+
+/* PREVIEW */
+
+.preview{
+    border: 3px dashed black;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .preview-row{
@@ -81,6 +88,8 @@ header{
     width: 60%;
     background-color: #ee82ee;
 }
+
+/* MAIN */
 
 .row-main{
     display: flex;
@@ -98,9 +107,19 @@ header{
     border: 1px dashed black;
 }
 
+.row-end-main{
+    display: flex;
+    margin: 25px 0;
+    padding: 25px 0;
+}
+
+.col-end-main{
+    width: 100%;
+    background-color: #228b22;
+}
+
 section:nth-child(2n){
     background-color: #d3d3d3;
 }
-/* MAIN */
 
 /* FOOTER */
