@@ -38,13 +38,18 @@
 }
 
 .debug .row-end-main{
+    height: 600px;
+}
+
+.debug .row-footer-top{
     height: 500px;
 }
+
 
 /* COMMON */
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -123,3 +128,25 @@ section:nth-child(2n){
 }
 
 /* FOOTER */
+
+footer{
+    background-color: #23272a;
+}
+
+.row-footer-top{
+    display: flex;
+    margin-top: -25px;
+    padding: 25px 0;
+}
+
+.col-big-footer{
+    width: 26%;
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+
+.col-small-footer{
+    width: 18%;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
