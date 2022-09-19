@@ -45,6 +45,12 @@
     height: 500px;
 }
 
+.debug .row-footer-bottom{
+    height: 50px;
+    width: 100%;
+    background-color: #7fffd4;
+}
+
 
 /* COMMON */
 
@@ -121,6 +127,7 @@ header{
 .col-end-main{
     width: 100%;
     background-color: #228b22;
+    border: 1px dashed black;
 }
 
 section:nth-child(2n){
@@ -150,3 +157,26 @@ footer{
     background-color: #20b2aa;
     border: 1px dashed white;
 }
+
+hr{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.row-footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo-footer{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+.bottone-footer{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+
