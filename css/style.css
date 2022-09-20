@@ -196,11 +196,12 @@ footer{
 }
 
 .col-small-footer{
-    width: 18%;
+    width: 19%;
 }
 
 hr{
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .row-footer-bottom{
@@ -218,3 +219,4 @@ hr{
     background-color: #ffb6c1;
     border: 1px dashed black;
 }
+
