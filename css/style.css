@@ -74,11 +74,26 @@
     color: white;
 }
 
+.debug footer{
+    background-color: #23272a;
+}
+
 .debug .row-footer-bottom{
     height: 50px;
     width: 100%;
     background-color: #7fffd4;
 }
+
+.debug .logo-footer{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+.debug .bottone-footer{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
 
 /* COMMON */
 
@@ -182,7 +197,7 @@ section:nth-child(2n){
 /* FOOTER */
 
 footer{
-    background-color: #23272a;
+    /* background-color: #23272a; */
 }
 
 .row-footer-top{
@@ -210,13 +225,13 @@ hr{
     padding: 10px 0;
 }
 
-.logo-footer{
+/* .logo-footer{
     background-color: #ffb6c1;
     border: 1px dashed black;
-}
+} */
 
-.bottone-footer{
+/* .bottone-footer{
     background-color: #ffb6c1;
     border: 1px dashed black;
-}
+} */
 
